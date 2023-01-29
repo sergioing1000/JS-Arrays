@@ -199,13 +199,73 @@
 // This method returns a new array by merging two or more values / arrays
 // ///////////////////////////////////////////////////////////////////////////////
 
-let array1 = [1, 2, 3];
-let array2 = [4, 5, 6];
-let array3 = [7, 8, 9];
+// let array1 = [1, 2, 3];
+// let array2 = [4, 5, 6];
+// let array3 = [7, 8, 9];
 
-let newArray = array1.concat(array2, array3);
+// let newArray = array1.concat(array2, array3);
 
-console.log(newArray);
+// console.log(newArray);
 
-newArray = array1.concat(4, 5, [6, 7, 8], 9);
-console.log(newArray);
+// newArray = array1.concat(4, 5, [6, 7, 8], 9);
+// console.log(newArray);
+
+
+// ///////////////////////////////////////////////////////////////////////////////
+// every() METHOD
+// This method checks if all elements in an array pass a test provided by a given function. It returns a Boolean value indicating whether all elements pass the test.
+// ///////////////////////////////////////////////////////////////////////////////
+
+
+// let numbers = [1, 2, 3, 4, 5, -6, 7, 8, 9, 10];
+
+// let allGreaterThanZero = numbers.every(function (number) {
+//   return number > 0;
+// });
+
+// console.log(allGreaterThanZero);
+
+// ///////////////////////////////////////////////////////////////////////////////
+//join() METHOD
+//This method converts all elements of an array to strings and joins them together with a specified separator.
+// ///////////////////////////////////////////////////////////////////////////////
+
+// let letters = ['s', 'e', 'r', 'g', 'i', 'o'];
+
+// let newArray=letters.join("-🚗-");
+
+// console.log(newArray);
+
+// ///////////////////////////////////////////////////////////////////////////////
+//reverse() method
+//this method reverses the order of the elements in an array in place and returns the reversed array.
+// ///////////////////////////////////////////////////////////////////////////////
+
+// let letters = ['g', 'o', 'i', 't', 'a', 'c', 'a', 'd', 'e', 'm', 'y'];
+
+// letters.reverse();
+
+// console.log(letters);
+
+// ///////////////////////////////////////////////////////////////////////////////
+//shift(): method
+//This method removes the first element of an array and returns that element.
+// ///////////////////////////////////////////////////////////////////////////////
+
+// let fruits = ['apple', 'banana', 'orange', 'mango', 'pineapple', 'kiwi'];
+
+// let shifted = fruits.shift();
+
+// console.log(fruits);
+// console.log(shifted);
+
+// ///////////////////////////////////////////////////////////////////////////////
+// slice(): method
+//This method returns a new array that contains a specified portion of an array.
+// ///////////////////////////////////////////////////////////////////////////////
+
+let fruits = ['apple', 'banana', 'orange', 'mango', 'pineapple', 'kiwi'];
+
+let newFruits = fruits.slice(0, 7);
+console.log(fruits);
+console.log(newFruits);
